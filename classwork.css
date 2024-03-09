@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(247, 247, 237);
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.mainContainer {
+  width: 736px;
+  height: 512px;
+  margin: 257px 0 0 368px;
+  border-radius: 32px;
+  background-color: #ffffff;
+  display: flex;
+}
+.section1 {
+  width: 368px;
+  height: 512px;
+  background:linear-gradient(rgba(119, 85, 255, 1),rgba(105, 67, 255, 1),rgba(89, 61, 249, 1),rgba(47, 44, 233, 1));
+  border-radius: 32px;
+  display: inline-block;
+}
+.section1 h2 {
+  margin-top: 38px;
+  margin-left: 119px;
+  margin-right: 124px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #cac9ff;
+}
+.score {
+  width: 200px;
+  height: 200px;
+  background:linear-gradient(rgba(77, 33, 201, 1),rgba(37, 33, 201, 0.1),rgba(37, 33, 201, 0.1));
+  border-radius: 100px;
+  margin-left: 84px;
+  margin-right: 84px;
+  margin-top: 35px;
+  display: flex;
+
+}
+.scoreChild {
+  margin: 55px 60px 46px 59px;
+  justify-content: center;
+}
+.score1 h3 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 72px;
+
+  color: #ffffff;
+}
+.maxScore h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #cac9ff;
+  text-align: center;
+}
+.section2 {
+  width: 260px;
+  height: 134px;
+  margin: 28px 54px 46px 54px;
+  text-align: center;
+}
+.text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.text2 {
+  width: 260px;
+  height: 69px;
+  margin-top: 14px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #cac9ff;
+}
+.summary {
+  margin-top: 38px;
+  margin-left: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #303b59;
+}
+.first {
+  width: 288px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: rgba(255, 85, 85, 0.090);
+}
+.second {
+  width: 288px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: rgba(255, 178, 30, 0.095);
+}
+.third {
+  width: 288px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: rgba(0, 187, 143, 0.095);
+}
+.fourth {
+  width: 288px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: rgba(17, 37, 214, 0.095)
+}
+.lists {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 28px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+button {
+    width: 288px;
+    height: 56px;
+    margin-top: 41px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color:rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 128px;
+    background-color:rgba(48, 59, 89, 1);
+    border: 0;
+}
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.first div {
+  display: flex;
+  align-items: center;
+}
+.reaction {
+  color: rgba(255, 85, 85, 1);
+  font-weight: 500;
+  font-size:18px ;
+  line-height: 23px;
+}
+.memory {
+  font-weight: 500;
+  font-size:18px ;
+  line-height: 23px;
+  color:rgba(255, 178, 30, 1)
+}
+.verbal {
+  font-weight: 500;
+  font-size:18px ;
+  line-height: 23px;
+  color:rgba(0, 187, 143, 1)
+}
+.visual {
+  font-weight: 500;
+  font-size:18px ;
+  line-height: 23px;
+  color:rgba(17, 37, 214, 1);
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+}
+.second div {
+  display: flex;
+  align-items: center;
+}
+.third {
+  display: flex;
+  justify-content: space-between;
+}
+.third div {
+  display: flex;
+  align-items: center;
+
+}
+.fourth {
+  display: flex;
+  justify-content: space-between;
+}
+.fourth div {
+  display: flex;
+  align-items: center;
+}
+.reaction1 {
+  color: rgba(48, 59, 89, 1);
+  font-weight: 700;
+  font-size: 18px;
+}
+.reaction2 {
+  color:rgba(48, 59, 89, 0.427);
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 8px;
+  margin-right: 16px;
+}
+.lists img {
+  margin-left: 16px;
+  margin-right: 18px;
+}
+
+
